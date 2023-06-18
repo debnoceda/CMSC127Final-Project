@@ -5,15 +5,15 @@
   padding: 0;
   margin: 0;
   font-family: 'Inria Sans', sans-serif;
+  z-index: 2;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
   padding: 0 2rem;
-  background-color: white;
+  background-color: transparent;
   color: white;
 }
 

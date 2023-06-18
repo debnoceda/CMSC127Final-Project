@@ -1,32 +1,28 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Montserrat&display=swap');
 
-.homepage-cover{
+.dashboard{
+    background-image: url(../../public/images/Cover-Page.svg);
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position-x: center; */
+    background-size: cover;
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 818px;
     left: 0px;
     top: 0px;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-} */
 
-/* .CoverPage{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-} */
+}
 
-/* .book-now-container{
+.book-now-container{
+    text-decoration: none;
     position: absolute;
     width: 251px;
     height: 41px;
-    left: 171px;
-    top: 560px;
+    left: 188px;
+    top: 592px;
 
     font-family: 'Be Vietnam Pro';
     font-style: italic;
@@ -39,12 +35,12 @@
     color: #000000;
 }
 
-.rectange{
+.book-now-rectangle{
     position: absolute;
     width: 303px;
     height: 70px;
-    left: 143px;
-    top: 551px;
+    left: 160px;
+    top: 583px;
 
     background: #FFFFFF;
     border-radius: 79px;
@@ -53,20 +49,292 @@
 .about-us-container{
     position: absolute;
     width: 592px;
-    height: 250px;
+    height: 336px;
     left: 732px;
-    top: 947px;
+    top: 939px;
 
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 22px;
+    line-height: 28px;
     text-align: justify;
     letter-spacing: 0.09em;
 
-    background: linear-gradient(90deg, #694501 0%, #E29900 100%), linear-gradient(90deg, #694501 0%, #E29900 100%), #AF7601;
+    background: linear-gradient(90deg, #CD353B 0%, #E05260 100%), linear-gradient(90deg, #694501 0%, #E29900 100%), #AF7601;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-} */
+}
+.facelift{
+    background: url(../../public/images/Facelift.svg);
+    position: absolute;
+    width: 568px;
+    height: 475px;
+    left: 102px;
+    top: 865px;
+}
+
+.facelift-border{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 544px;
+    height: 397px;
+    left: 114px;
+    top: 903px;
+
+    border: 2px solid #BFBC4B;
+}
+
+.services{
+    position: absolute;
+    width: 788px;
+    height: 68px;
+    left: 114px;
+    top: 1341px;
+
+    font-family: 'Be Vietnam Pro';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 80px;
+    letter-spacing: 0.09em;
+    white-space: nowrap;
+
+    color: #000000;
+}
+
+.icons{
+    background: url(../../public/images/icons8-skincare-128\ 1.svg);
+    position: absolute;
+    width: 141px;
+    height: 156px;
+    left: 91px;
+    top: 1479px;
+}
+
+.gluta-drip{
+    position: absolute;
+    width: 443px;
+    height: 68px;
+    left: 250px;
+    top: 1456px;
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: 0.09em;
+
+    color: #D61720;
+}
+
+.gluta-content{
+    position: absolute;
+    width: 342px;
+    height: 140px;
+    left: 257px;
+    top: 1517px;
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+    letter-spacing: 0.09em;
+
+    color: #000000;
+}
+
+.underarm-whitening{
+    position: absolute;
+    width: 586px;
+    height: 68px;
+    left: 930px;
+    top: 1457px;
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: 0.09em;
+
+    color: #D61720;
+}
+
+.eyebag-removal{
+    position: absolute;
+    width: 443px;
+    height: 68px;
+    left: 250px;
+    top: 1685px;
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: 0.09em;
+
+    color: #D61720;
+}
+
+.microneedling{
+    position: absolute;
+    width: 443px;
+    height: 68px;
+    left: 930px;
+    top: 1686px;
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: 0.09em;
+
+    color: #D61720;
+
+}
+
+.lld-facial{
+    position: absolute;
+    width: 443px;
+    height: 68px;
+    left: 248px;
+    top: 1917px;
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: 0.09em;
+
+    color: #D61720;
+}
+
+.skin-facial{
+    position: absolute;
+    width: 443px;
+    height: 68px;
+    left: 928px;
+    top: 1918px;
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: 0.09em;
+
+    color: #D61720;
+}
+
+.girl-bg{
+    background: url(../../public/images/Group\ 9.svg);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 628px;
+    left: 0px;
+    top: 2209px;
+}
+
+.girl-in-landing-page{
+    background: url(../../public/images/girl-in-landing-page.svg);
+    position: absolute;
+    width: 845px;
+    height: 702px;
+    left: -13px;
+    top: 2135px;
+}
+
+.tagline{
+    position: absolute;
+    width: 589px;
+    height: 192px;
+    left: 792px;
+    top: 2365px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: 0.09em;
+    
+    color: #FFFFFF;
+    
+}
+
+.book-now-bot-rectangle{
+    position: absolute;
+    width: 307px;
+    height: 73px;
+    left: 835px;
+    top: 2609px;
+
+    background: #BFBC4B;
+    border-radius: 79px;
+}
+
+.book-now-bot-container{
+    text-decoration: none;
+    position: absolute;
+    width: 245.59px;
+    height: 32.56px;
+    left: 874px;
+    top: 2626px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.09em;
+
+    color: #ED6A59;
+}
+
+.fb-icon{
+    background: url(../../public/images/image\ 11.svg);
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 619px;
+    top: 2973px;
+}
+
+.message-icon{
+    background: url(../../public/images/image\ 12.svg);
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 694px;
+    top: 2973px;
+}
+
+.call-icon{
+    background: url(../../public/images/image\ 13.svg);
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 769px;
+    top: 2973px;
+}
+
+.space{
+    position: absolute;
+    width: 307px;
+    height: 73px;
+    left: 0px;
+    top: 3000px;
+
+    background: white;
+    border-radius: 79px;
+}
