@@ -22,7 +22,7 @@
     width: 251px;
     height: 41px;
     left: 188px;
-    top: 592px;
+    top: 594px;
 
     font-family: 'Be Vietnam Pro';
     font-style: italic;
@@ -37,37 +37,51 @@
 
 .book-now-rectangle{
     position: absolute;
-    width: 303px;
+    width: 307px;
     height: 70px;
-    left: 160px;
+    left: 158px;
     top: 583px;
 
     background: #FFFFFF;
     border-radius: 79px;
 }
 
-.about-us-container{
+.about-us{
     position: absolute;
-    width: 592px;
-    height: 336px;
-    left: 732px;
-    top: 939px;
-
+    width: 438.54px;
+    height: 91px;
+    left: 720px;
+    top: 917px;
+    
     font-family: 'Be Vietnam Pro';
     font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    text-align: justify;
-    letter-spacing: 0.09em;
-
-    background: linear-gradient(90deg, #CD353B 0%, #E05260 100%), linear-gradient(90deg, #694501 0%, #E29900 100%), #AF7601;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 73px;
+    letter-spacing: 0.135em;
+    
+    color: #D61720;
 }
-.facelift{
-    background: url(../../public/images/Facelift.svg);
+
+.about-us-container{
+    position: absolute;
+    width: 607px;
+    height: 288px;
+    left: 720px;
+    top: 1008px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+.about-us-pic{
+    background: url(../../public/images/about-us-pic.svg);
+    background-repeat: no-repeat;
     position: absolute;
     width: 568px;
     height: 475px;
@@ -75,164 +89,349 @@
     top: 865px;
 }
 
-.facelift-border{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 544px;
-    height: 397px;
-    left: 114px;
-    top: 903px;
-
-    border: 2px solid #BFBC4B;
-}
-
 .services{
     position: absolute;
-    width: 788px;
-    height: 68px;
-    left: 114px;
-    top: 1341px;
-
+    width: 1024px;
+    height: 91px;
+    left: 66px;
+    top: 1344px;
+    
     font-family: 'Be Vietnam Pro';
     font-style: italic;
-    font-weight: 600;
-    font-size: 55px;
-    line-height: 80px;
-    letter-spacing: 0.09em;
-    white-space: nowrap;
-
+    font-weight: 1500;
+    font-size: 60px;
+    line-height: 88px;
+    letter-spacing: 0.135em;
+    
     color: #000000;
 }
 
-.icons{
-    background: url(../../public/images/icons8-skincare-128\ 1.svg);
+.gluta-drip-shape{
     position: absolute;
-    width: 141px;
-    height: 156px;
-    left: 91px;
-    top: 1479px;
+    width: 170px;
+    height: 170px;
+    left: 54px;
+    top: 1478px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    background: #D9D9D9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.gluta-drip-pic{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(50% at center);
 }
 
 .gluta-drip{
     position: absolute;
-    width: 443px;
-    height: 68px;
-    left: 250px;
-    top: 1456px;
-
+    width: 434px;
+    height: 91px;
+    left: 242px;
+    top: 1478px;
+    
     font-family: 'Be Vietnam Pro';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     line-height: 53px;
-    letter-spacing: 0.09em;
-
+    letter-spacing: 0.135em;
+    
     color: #D61720;
 }
 
 .gluta-content{
     position: absolute;
-    width: 342px;
-    height: 140px;
-    left: 257px;
-    top: 1517px;
-
+    width: 458px;
+    height: 181px;
+    left: 244px;
+    top: 1530px;
+    
     font-family: 'Be Vietnam Pro';
     font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 35px;
-    text-align: justify;
-    letter-spacing: 0.09em;
-
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.135em;
+    
     color: #000000;
+}
+
+.underarm-whitening-shape{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 698px;
+    top: 1478px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    background: black;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.underam-whitening-pic{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(50% at center);
 }
 
 .underarm-whitening{
     position: absolute;
-    width: 586px;
-    height: 68px;
-    left: 930px;
-    top: 1457px;
-
+    width: 483px;
+    height: 53px;
+    left: 887px;
+    top: 1478px;
+    
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 53px;
-    letter-spacing: 0.09em;
-
+    white-space: nowrap;
+    
+    letter-spacing: 0.135em;
+    
     color: #D61720;
+}
+
+.underarm-whitening-content{
+    position: absolute;
+    width: 458px;
+    height: 181px;
+    left: 887px;
+    top: 1531px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.135em;
+    
+    color: #000000;
+}
+
+.eyebag-removal-shape{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 54px;
+    top: 1712px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    background: #D9D9D9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.eyebag-removal-pic{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(50% at center);
 }
 
 .eyebag-removal{
     position: absolute;
-    width: 443px;
-    height: 68px;
-    left: 250px;
-    top: 1685px;
-
+    width: 519px;
+    height: 58px;
+    left: 240px;
+    top: 1694px;
+    
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 53px;
-    letter-spacing: 0.09em;
-
+    letter-spacing: 0.135em;
+    
     color: #D61720;
+}
+
+.eyebag-removal-content{
+    position: absolute;
+    width: 458px;
+    height: 181px;
+    left: 240px;
+    top: 1748px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.135em;
+    
+    color: #000000;
+}
+
+.microneedling-shape{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 698px;
+    top: 1700px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    background: #D9D9D9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.microneedling-pic{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(50% at center);
 }
 
 .microneedling{
     position: absolute;
-    width: 443px;
-    height: 68px;
-    left: 930px;
-    top: 1686px;
-
+    width: 369px;
+    height: 53px;
+    left: 887px;
+    top: 1694px;
+    
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 53px;
-    letter-spacing: 0.09em;
-
+    /* identical to box height */
+    
+    letter-spacing: 0.135em;
+    
     color: #D61720;
-
 }
 
-.lld-facial{
+.microneedling-content{
     position: absolute;
-    width: 443px;
-    height: 68px;
-    left: 248px;
-    top: 1917px;
-
+    width: 458px;
+    height: 181px;
+    left: 887px;
+    top: 1747px;
+    
     font-family: 'Be Vietnam Pro';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.135em;
+    
+    color: #000000;
+}
+
+.led-light-therapy-shape{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 54px;
+    top: 1929px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    background: #D9D9D9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.led-light-therapy-pic{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(50% at center);
+}
+
+.led-light-therapy{
+    position: absolute;
+    width: 480px;
+    height: 58px;
+    left: 242px;
+    top: 1916px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
     font-size: 36px;
     line-height: 53px;
-    letter-spacing: 0.09em;
-
+    letter-spacing: 0.135em;
+    
     color: #D61720;
+}
+
+.led-light-therapy-content{
+    position: absolute;
+    width: 423.58px;
+    height: 181px;
+    left: 242px;
+    top: 1970px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.135em;
+    
+    color: #000000;
+}
+
+.skin-facial-shape{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 698px;
+    top: 1929px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    background: #D9D9D9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.skin-facial-pic{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(50% at center); 
 }
 
 .skin-facial{
     position: absolute;
-    width: 443px;
-    height: 68px;
-    left: 928px;
-    top: 1918px;
-
+    width: 434px;
+    height: 91px;
+    left: 887px;
+    top: 1916px;
+    
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 53px;
-    letter-spacing: 0.09em;
-
+    letter-spacing: 0.135em;
+    
     color: #D61720;
+}
+
+.skin-facial-content{
+    position: absolute;
+    width: 458px;
+    height: 181px;
+    left: 887px;
+    top: 1970px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.135em;
+    
+    color: #000000;
 }
 
 .girl-bg{
@@ -248,7 +447,7 @@
 .girl-in-landing-page{
     background: url(../../public/images/girl-in-landing-page.svg);
     position: absolute;
-    width: 845px;
+    width: 777px;
     height: 702px;
     left: -13px;
     top: 2135px;
@@ -256,30 +455,51 @@
 
 .tagline{
     position: absolute;
-    width: 589px;
-    height: 192px;
-    left: 792px;
-    top: 2365px;
+    width: 748px;
+    height: 312px;
+    left: 639px;
+    top: 2351px;
     
-    font-family: 'Montserrat';
+    font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
-    letter-spacing: 0.09em;
+    font-size: 75px;
+    line-height: 80px;
+    /* or 107% */
     
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;   
+}
+
+.q1{
+    position: absolute;
+    width: 223px;
+    height: 53px;
+    left: 497px;
+    top: 2351px;
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 80px;
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
     color: #FFFFFF;
-    
 }
 
 .book-now-bot-rectangle{
     position: absolute;
-    width: 307px;
-    height: 73px;
+    width: 308px;
+    height: 74px;
     left: 835px;
-    top: 2609px;
+    top: 2608px;
 
-    background: #BFBC4B;
+    background: #FFD447;
     border-radius: 79px;
 }
 
@@ -331,7 +551,7 @@
 .space{
     position: absolute;
     width: 307px;
-    height: 73px;
+    height: 50px;
     left: 0px;
     top: 3000px;
 

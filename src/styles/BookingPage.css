@@ -1,0 +1,778 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;1,700&family=Inria+Sans:wght@300&family=Montserrat:wght@100&display=swap');
+
+header .wrapper{
+    position: relative;
+}
+
+
+.body {
+    max-width: 500px;
+    margin: auto;
+  }
+
+.booking-form{
+    position: absolute;
+    width: 719px;
+    height: 67px;
+    left: 75px;
+    top: 215px;
+    
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: 0.09em;
+    
+    color: #55073A;
+}
+
+.personal-details {
+        position: absolute;
+    width: 1054px;
+    height: 67px;
+    left: 75px;
+    top: 297px;
+
+    font-family: 'Inria Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.135em;
+
+    color: #BFBC4B;
+}
+
+.previous-customer {
+    position: absolute;
+    width: 712px;
+    height: 41px;
+    left: 82px;
+    top: 354px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.09em;
+    
+    color: #504E00;
+    
+}
+
+.customer-check input[type="radio"][value="yes"] {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 75px;
+    top: 420px;
+}
+
+.customer-check label[for='yes'] {
+    position: absolute;
+    width: 113px;
+    height: 29.56px;
+    left: 116px;
+    top: 391px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    
+    color: #504E00;
+    display: inline-block;
+    vertical-align: middle; 
+    line-height: 3.5; 
+ }
+
+ .customer-check input[type="radio"][value="no"] {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 300px;
+    top: 420px;
+}
+
+.customer-check label[for='no'] {
+    position: absolute;
+    width: 37px;
+    height: 35px;
+    left: 340px;
+    top: 391px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    color: #504E00;
+    
+    display: inline-block;
+    vertical-align: middle; 
+    line-height: 3.5; 
+ }
+
+ .firstname {
+    position: absolute;
+    width: 330px;
+    height: 35px;
+    left: 75px;
+    top: 475px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    
+    color: #694501;
+ }
+
+ .firstname-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 735px;
+    height: 55.18px;
+    left: 77px;
+    top: 535px;
+    
+    font-size: 20px;
+    font-family: 'Be Vietnam Pro';
+    padding: 10px;
+
+    color: black;
+    background: rgba(187, 182, 182, 0.14);
+    border: 1px solid #848383;
+    
+ }
+
+ .lastname {
+    position: absolute;
+    width: 582px;
+    height: 41.38px;
+    left: 853px;
+    top: 475px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    
+    color: #504E00;
+ }
+
+ .lastname-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 514px;
+    height: 55.18px;
+    left: 855px;
+    top: 535px;
+
+    font-size: 20px;    
+    font-family: 'Be Vietnam Pro';
+    padding: 10px;
+
+    color: black;
+    background: rgba(187, 182, 182, 0.14);
+    border: 1px solid #848383;
+    
+ }
+
+ .email {
+    position: absolute;
+    width: 582px;
+    height: 41.38px;
+    left: 75px;
+    top: 591.36px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    
+    color: #694501;
+ }
+
+ .email-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 735px;
+    height: 55.18px;
+    left: 77px;
+    top: 651.89px;
+
+    font-size: 20px;    
+    font-family: 'Be Vietnam Pro';
+    padding: 10px;
+
+    color: black;
+    background: rgba(187, 182, 182, 0.14);
+    border: 1px solid #848383;
+    
+ }
+
+ .confirmedemail {
+    position: absolute;
+    width: 582px;
+    height: 41.38px;
+    left: 853px;
+    top: 591.36px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    
+    color: #504E00;
+    
+ }
+
+ .confirmedemail-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 514px;
+    height: 55.18px;
+    left: 855px;
+    top: 651.89px;
+    font-size: 20px;    
+
+    font-family: 'Be Vietnam Pro';
+    padding: 10px;
+
+    color: black;
+    background: rgba(187, 182, 182, 0.14);
+    border: 1px solid #848383;
+    
+ }
+
+ .contact {
+    position: absolute;
+    width: 420px;
+    height: 35px;
+    left: 75px;
+    top: 712.32px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    
+    letter-spacing: 0.09em;
+    
+    color: #504E00;
+ }
+
+ .contact-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 735px;
+    height: 55.18px;
+    left: 77px;
+    top: 771.86px;
+
+    font-family: 'Be Vietnam Pro';
+    padding: 10px;
+
+    color: black;
+    background: rgba(187, 182, 182, 0.14);
+    border: 1px solid #848383;
+    
+ }
+
+ .age {
+    position: absolute;
+    width: 582px;
+    height: 41.38px;
+    left: 853px;
+    top: 713.3px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    
+    color: #504E00;
+ }
+
+ .age-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 514px;
+    height: 55.18px;
+    left: 855px;
+    top: 771.83px;
+    
+    font-family: 'Be Vietnam Pro';
+    padding: 10px;
+
+    color: black;
+    background: rgba(187, 182, 182, 0.14);
+    border: 1px solid #848383;
+    
+ }
+
+ .address {
+    position: absolute;
+    width: 467px;
+    height: 41.38px;
+    left: 79px;
+    top: 823.66px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    
+    color: #504E00;
+ }
+
+ .address-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1292px;
+    height: 55.18px;
+    left: 77px;
+    top: 887px;
+    
+    font-family: 'Be Vietnam Pro';
+    padding: 10px;
+
+    color: black;
+    background: rgba(187, 182, 182, 0.14);
+    border: 1px solid #848383;
+    
+ }
+
+ .location-service{
+    position: absolute;
+    width: 423px;
+    height: 24.63px;
+    left: 81px;
+    top: 960px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.09em;
+
+    color: #BFBC4B;
+ }
+
+ .location-check input[type="radio"][value="clinic"] {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 75px;
+    top: 1029px;
+}
+
+.location-check label[for='clinic'] {
+    position: absolute;
+    width: 113px;
+    height: 29.56px;
+    left: 116px;
+    top: 1000px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    
+    color: #504E00;
+    
+    display: inline-block;
+    vertical-align: middle; 
+    line-height: 3.5; 
+ }
+
+ .location-check input[type="radio"][value="home"] {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 346px;
+    top: 1029px;
+}
+
+.location-check label[for='home'] {
+    position: absolute;
+    width: 230px;
+    height: 29.56px;
+    left: 385px;
+    top: 1000px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    
+    color: #504E00;
+    
+    display: inline-block;
+    vertical-align: middle; 
+    line-height: 3.5; 
+ }
+
+ .clinical-services{
+    position: absolute;
+    width: 487.46px;
+    height: 35.47px;
+    left: 75px;
+    top: 1069px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.135em;
+
+    color: #BFBC4B;
+ }
+
+ .services{
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 0.135em;
+
+    color: #694501;
+ }
+
+ .services input[type="checkbox"][id="service1"] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 75px;
+    top: 1182px;
+}
+
+.services label[for='service1'] {
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 113.83px;
+    top: 1180px;
+ }
+
+ .services input[type="checkbox"][id="service2"] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 75px;
+    top: 1228px;
+ }
+
+.services label[for='service2'] {
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 113.83px;
+    top: 1226px;
+ }
+
+ .services input[type="checkbox"][id="service3"] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 75px;
+    top: 1274px;
+ }
+
+.services label[for='service3'] {
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 113.83px;
+    top: 1272px;
+    
+ }
+
+ .services input[type="checkbox"][id="service4"] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 75px;
+    top: 1320px;
+ }
+
+.services label[for='service4'] {
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 113.83px;
+    top: 1318px;
+    
+ }
+
+ .services input[type="checkbox"][id="service5"] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 75px;
+    top: 1366px;
+ }
+
+.services label[for='service5'] {
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 113.83px;
+    top: 1364px;
+    
+ }
+ 
+ .services input[type="checkbox"][id="service6"] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 75px;
+    top: 1412px;
+ }
+
+.services label[for='service6'] {
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 113.83px;
+    top: 1410px;
+ }
+
+ .services input[type="checkbox"][id="service7"] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 770px;
+    top: 1182px;
+}
+
+.services label[for='service7'] {
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 815px;
+    top: 1180px;
+ }
+
+ .services input[type="checkbox"][id="service8"] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 770px;
+    top: 1228px;
+ }
+
+.services label[for='service8'] {
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 815px;
+    top: 1226px;
+ }
+
+ .services input[type="checkbox"][id="service9"] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 770px;
+    top: 1274px;
+ }
+
+ .services label[for='service9'] {
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 815px;
+    top: 1272px;
+
+ }
+
+ .services input[type="checkbox"][id="service10"] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 770px;
+    top: 1320px;
+ }
+
+.services label[for='service10'] {
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 815px;
+    top: 1318px;
+    
+ }
+
+ .services input[type="checkbox"][id="service11"] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 770px;
+    top: 1366px;
+ }
+
+.services label[for='service11'] {
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 815px;
+    top: 1364px;
+    
+ }
+
+ .services input[type="checkbox"][id="service12"] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 770px;
+    top: 1412px;
+ }
+
+.services label[for='service12'] {
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 815px;
+    top: 1410px;
+    
+ }
+
+ /*prices*/
+
+ .service1-price{
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 660px;
+    top: 1156px;
+}
+
+.service2-price{
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 660px;
+    top: 1202px;
+}
+
+.service3-price{
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 660px;
+    top: 1248px;
+}
+
+.service4-price{
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 660px;
+    top: 1294px;
+}
+
+.service5-price{
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 660px;
+    top: 1340px;
+}
+
+.service6-price{
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 660px;
+    top: 1386px;
+}
+
+.service7-price{
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 1310px;
+    top: 1156px;
+}
+
+.service8-price{
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 1310px;
+    top: 1202px;
+}
+
+.service9-price{
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 1310px;
+    top: 1248px;
+}
+
+.service10-price{
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 1310px;
+    top: 1294px;
+}
+
+.service11-price{
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 1310px;
+    top: 1340px;
+}
+
+.service12-price{
+    position: absolute;
+    width: 560px;
+    height: 35px;
+    left: 1310px;
+    top: 1386px;
+}
+
+
+
+
+
+
+
+

@@ -23,11 +23,14 @@ function Navbar() {
           <Link to="/booking" className="booking-container">
             BOOKING
           </Link>
+          <Link to="/contact-us" className="contact-us-container">
+            CONTACT US
+          </Link>
+          <Link to="/login" className="login-box">
+          </Link>
           <Link to="/login" className="login-container">
             LOGIN
           </Link>
-          <div className ="reference-no-box"></div>
-          <span className="reference-no-container"> REFERENCE NO.</span>
         </div>
       </nav>
     </header>
