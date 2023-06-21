@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/BookingPage.css"
 
-const BookingPage = () => {
+function BookingPage (){
     return (
         <body>
             <div className='booking-page'>
@@ -104,8 +104,8 @@ const BookingPage = () => {
             </div>
         </body>
         
-    )
+    );
 }
 
-export default BookingPage
+export default BookingPage;
 

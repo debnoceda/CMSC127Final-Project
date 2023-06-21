@@ -8,27 +8,40 @@ function Navbar() {
       <div className="logo-container">
         <Link to="/" className="homepage-logo">
           <img
-            src="/images/image_part_004.png"
+            src="/images/logo.svg"
             alt="Logo"
-            width="161"
-            height="132"
+            width="222"
+            height="222"
           />
         </Link>
       </div>
       <nav className="navbar">
         <div className="links-container">
-          <Link to="/" className="home-container">
-            HOME
-          </Link>
-          <Link to="/booking" className="booking-container">
-            BOOKING
-          </Link>
-          <Link to="/contact-us" className="contact-us-container">
-            CONTACT US
-          </Link>
-          <Link to="/login" className="login-box">
-          </Link>
-          <Link to="/login" className="login-container">
+          <div className="text-container">
+            <Link
+              to="/"
+              className="home-container"
+            >
+              HOME
+            </Link>
+            <Link
+              to="/booking"
+              className="booking-container"
+            >
+              BOOKING
+            </Link>
+            <Link
+              to="/contact-us"
+              className="contact-us-container"
+            >
+              CONTACT US
+            </Link>
+          </div>
+          <Link to="/login" className="login-box"></Link>
+          <Link
+            to="/login"
+            className="login-container"
+          >
             LOGIN
           </Link>
         </div>

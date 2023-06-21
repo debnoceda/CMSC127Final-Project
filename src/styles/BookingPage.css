@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;1,700&family=Inria+Sans:wght@300&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Montserrat:wght@500&display=swap');
 
 header .wrapper{
     position: relative;
 }
-
 
 .body {
     max-width: 500px;
@@ -11,20 +10,20 @@ header .wrapper{
   }
 
 .booking-form{
-    position: absolute;
-    width: 719px;
-    height: 67px;
-    left: 75px;
-    top: 215px;
-    
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
-    letter-spacing: 0.09em;
-    
-    color: #55073A;
+   position: absolute;
+   width: 719px;
+   height: 67px;
+   left: 75px;
+   top: 215px;
+   
+   font-family: 'Montserrat';
+   font-style: italic;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 59px;
+   letter-spacing: 0.09em;
+   
+   color: #55073A;
 }
 
 .personal-details {
@@ -473,19 +472,19 @@ header .wrapper{
  }
 
  .services input[type="checkbox"][id="service1"] {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 75px;
-    top: 1182px;
+   position: absolute;
+   width: 16px;
+   height: 15px;
+   left: 75px;
+   top: 1147px;   
 }
 
 .services label[for='service1'] {
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 113.83px;
-    top: 1180px;
+   position: absolute;
+   width: 517px;
+   height: 35px;
+   left: 113.83px;
+   top: 1137px;
  }
 
  .services input[type="checkbox"][id="service2"] {
@@ -674,11 +673,11 @@ header .wrapper{
  /*prices*/
 
  .service1-price{
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 660px;
-    top: 1156px;
+   position: absolute;
+   width: 67px;
+   height: 35px;
+   left: 659px;
+   top: 1137px;
 }
 
 .service2-price{
