@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@800&family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.loginPage-container{
+    position: absolute;
+    left: 0px;
+}
+
+.logo-in-login{
+    background-image: url(../../public/images/logo1.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 336.44px;
+    height: 336.44px;
+    left: 42vw;
+    top: 212px;
+}
+
+.welcome{
+    position: absolute;
+    width: 328.73px;
+    height: 41.67px;
+    left: 44.3vw;
+    top: 427.45px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #000000;
+}
+
+.log-in{
+    position: absolute;
+    width: 311.75px;
+    height: 38.58px;
+    left: 43.3vw;
+    top: 473.49px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: rgba(0, 0, 0, 0.53);
+}
+
+.userName-input {
+    position: absolute;
+    width: 791.72px;
+    height: 69.45px;
+    left: 24vw;
+    top: 538.57px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-indent: 10px;
+}
+  
+.password-input {
+    position: relative;
+    width: 791.72px;
+    height: 69.45px;
+    left: 24vw;
+    top: 626.54px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-indent: 10px;
+}
+  
+.password-toggle-button {
+    position: absolute;
+    top: 650px;
+    left: 70vw;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000000;
+}
+  
+.password-toggle-button:hover {
+    color: #DF505D;
+}
+
+.login-button{
+    cursor: pointer;
+    position: absolute;
+    width: 791.72px;
+    height: 67.91px;
+    left: 24vw;
+    top: 738.53px;
+
+    background: #FFD447;
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 25px;
+    font-family: Be Vietnam Pro;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.login-button:hover{
+    color: #c8b05f;
+}
+
+.loginStatus{
+    position: absolute;
+    width: 600px;
+    left: 24.5vw;
+    top: 98.5vh;
+
+    color: #FF0017;
+    font-size: 20px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.register-button{
+    border:none;
+    background-color: white;
+    position: absolute;
+    width: 256.19px;
+    height: 29.32px;
+    left: 43vw;
+    top: 816px;
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-decoration-line: underline;
+
+    color: #DF505D;
+}
+
+.extra-space{
+    position: absolute;
+    width: 307px;
+    height: 50px;
+    left: 0px;
+    top: 1000px;
+    background: white;
+    border-radius: 79px;
+}
+  

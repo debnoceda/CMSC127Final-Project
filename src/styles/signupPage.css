@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@800&family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.signupPage-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100vh;
+}
+
+.signupLogo{
+    background-image: url(../../public/images/logo1.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 336.44px;
+    height: 336.44px;
+    left: 42vw;
+    top: 212px;
+}
+
+.createAccount{
+    position:absolute;
+    width: 328.727px;
+    height: 41.67px;
+    left: 40vw;
+    top: 427.45px;
+    right: 506.06;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: Be Vietnam Pro;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.userNameInput {
+    position: absolute;
+    width: 791.72px;
+    height: 69.45px;
+    left: 25vw;
+    top: 508.57px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-indent: 10px;
+}
+  
+.passwordInput {
+    position: absolute;
+    width: 791.72px;
+    height: 69.45px;
+    left: 25vw;
+    top: 598.54px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-indent: 10px;
+}
+
+.firstNameInput {
+    position: absolute;
+    width: 791.72px;
+    height: 69.45px;
+    left: 25vw;
+    top: 688.54px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-indent: 10px;
+}
+
+.lastNameInput {
+    position: absolute;
+    width: 791.72px;
+    height: 69.45px;
+    left: 25vw;
+    top: 778.54px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-indent: 10px;
+}
+
+.emailInput {
+    position: absolute;
+    width: 791.72px;
+    height: 69.45px;
+    left: 25vw;
+    top: 868.54px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-indent: 10px;
+}
+
+.showPasswordReg{
+    position: absolute;
+    top: 622px;
+    left: 70vw;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000000;
+}
+
+.showPasswordReg:hover {
+    color: #DF505D;
+}
+
+.success-message {
+    display: flex;
+    width: 484px;
+    height: 29px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #DF505D;
+    font-size: 20px;
+    font-family: Be Vietnam Pro;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+.error-message{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    height: 29px;
+    left: 26vw;
+    top: 945px;
+
+    color: #FF0017;
+    font-size: 20px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.success-message{
+    position: absolute;
+    display: flex;
+    width: 484px;
+    height: 29px;
+    left: 26vw;
+    top: 945px;
+
+    color: #FF0017;
+    font-size: 20px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.signup-button{
+    cursor: pointer;
+    position: absolute;
+    width: 791.72px;
+    height: 67.91px;
+    left: 25vw;
+    top: 1008.54px;
+
+    background: #FFD447;
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 25px;
+    font-family: Be Vietnam Pro;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.loginPage{
+    border:none;
+    background-color: white;
+    position: absolute;
+    width: 450.19px;
+    height: 29.32px;
+    left: 38vw;
+    top: 1086px;
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-decoration-line: underline;
+
+    color: #DF505D;
+}
+
+.extraSpace{
+    position: absolute;
+    width: 307px;
+    height: 50px;
+    left: 0px;
+    top: 1210px;
+    background: white;
+    border-radius: 79px;
+}
