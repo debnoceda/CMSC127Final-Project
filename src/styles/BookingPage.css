@@ -1,771 +1,252 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Montserrat:ital,wght@0,700;1,700&display=swap');
 
 header .wrapper{
     position: relative;
 }
 
-.body {
-    max-width: 500px;
-    margin: auto;
-  }
+.box {
+   background-color: transparent;
+   justify-content: center;
+   height: 567px;
+   width: 1150px;
 
-.booking-form{
+   border: 4px solid;
+   border-color: #ffd447;
+   border-radius: 25px;
+   height: 605px;
    position: absolute;
-   width: 719px;
-   height: 67px;
-   left: 75px;
-   top: 215px;
-   
-   font-family: 'Montserrat';
-   font-style: italic;
-   font-weight: 700;
-   font-size: 48px;
-   line-height: 59px;
-   letter-spacing: 0.09em;
-   
-   color: #55073A;
-}
 
-.personal-details {
-        position: absolute;
-    width: 1054px;
-    height: 67px;
-    left: 75px;
-    top: 297px;
-
-    font-family: 'Inria Sans';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 43px;
-    letter-spacing: 0.135em;
-
-    color: #BFBC4B;
-}
-
-.previous-customer {
-    position: absolute;
-    width: 712px;
-    height: 41px;
-    left: 82px;
-    top: 354px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.09em;
-    
-    color: #504E00;
-    
-}
-
-.customer-check input[type="radio"][value="yes"] {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 75px;
-    top: 420px;
-}
-
-.customer-check label[for='yes'] {
-    position: absolute;
-    width: 113px;
-    height: 29.56px;
-    left: 116px;
-    top: 391px;
-    
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
-    letter-spacing: 0.09em;
-    
-    color: #504E00;
-    display: inline-block;
-    vertical-align: middle; 
-    line-height: 3.5; 
+   top: 270px;
+   left: 132px;
  }
 
- .customer-check input[type="radio"][value="no"] {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 300px;
-    top: 420px;
-}
-
-.customer-check label[for='no'] {
-    position: absolute;
-    width: 37px;
-    height: 35px;
-    left: 340px;
-    top: 391px;
-    
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
-    letter-spacing: 0.09em;
-    color: #504E00;
-    
-    display: inline-block;
-    vertical-align: middle; 
-    line-height: 3.5; 
- }
-
- .firstname {
-    position: absolute;
-    width: 330px;
-    height: 35px;
-    left: 75px;
-    top: 475px;
-    
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
-    letter-spacing: 0.09em;
-    
-    color: #694501;
- }
-
- .firstname-box {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 735px;
-    height: 55.18px;
-    left: 77px;
-    top: 535px;
-    
-    font-size: 20px;
-    font-family: 'Be Vietnam Pro';
-    padding: 10px;
-
-    color: black;
-    background: rgba(187, 182, 182, 0.14);
-    border: 1px solid #848383;
-    
- }
-
- .lastname {
-    position: absolute;
-    width: 582px;
-    height: 41.38px;
-    left: 853px;
-    top: 475px;
-    
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
-    letter-spacing: 0.09em;
-    
-    color: #504E00;
- }
-
- .lastname-box {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 514px;
-    height: 55.18px;
-    left: 855px;
-    top: 535px;
-
-    font-size: 20px;    
-    font-family: 'Be Vietnam Pro';
-    padding: 10px;
-
-    color: black;
-    background: rgba(187, 182, 182, 0.14);
-    border: 1px solid #848383;
-    
- }
-
- .email {
-    position: absolute;
-    width: 582px;
-    height: 41.38px;
-    left: 75px;
-    top: 591.36px;
-    
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
-    letter-spacing: 0.09em;
-    
-    color: #694501;
- }
-
- .email-box {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 735px;
-    height: 55.18px;
-    left: 77px;
-    top: 651.89px;
-
-    font-size: 20px;    
-    font-family: 'Be Vietnam Pro';
-    padding: 10px;
-
-    color: black;
-    background: rgba(187, 182, 182, 0.14);
-    border: 1px solid #848383;
-    
- }
-
- .confirmedemail {
-    position: absolute;
-    width: 582px;
-    height: 41.38px;
-    left: 853px;
-    top: 591.36px;
-    
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
-    letter-spacing: 0.09em;
-    
-    color: #504E00;
-    
- }
-
- .confirmedemail-box {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 514px;
-    height: 55.18px;
-    left: 855px;
-    top: 651.89px;
-    font-size: 20px;    
-
-    font-family: 'Be Vietnam Pro';
-    padding: 10px;
-
-    color: black;
-    background: rgba(187, 182, 182, 0.14);
-    border: 1px solid #848383;
-    
- }
-
- .contact {
-    position: absolute;
-    width: 420px;
-    height: 35px;
-    left: 75px;
-    top: 712.32px;
-    
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
-    
-    letter-spacing: 0.09em;
-    
-    color: #504E00;
- }
-
- .contact-box {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 735px;
-    height: 55.18px;
-    left: 77px;
-    top: 771.86px;
-
-    font-family: 'Be Vietnam Pro';
-    padding: 10px;
-
-    color: black;
-    background: rgba(187, 182, 182, 0.14);
-    border: 1px solid #848383;
-    
- }
-
- .age {
-    position: absolute;
-    width: 582px;
-    height: 41.38px;
-    left: 853px;
-    top: 713.3px;
-    
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
-    letter-spacing: 0.09em;
-    
-    color: #504E00;
- }
-
- .age-box {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 514px;
-    height: 55.18px;
-    left: 855px;
-    top: 771.83px;
-    
-    font-family: 'Be Vietnam Pro';
-    padding: 10px;
-
-    color: black;
-    background: rgba(187, 182, 182, 0.14);
-    border: 1px solid #848383;
-    
- }
-
- .address {
-    position: absolute;
-    width: 467px;
-    height: 41.38px;
-    left: 79px;
-    top: 823.66px;
-    
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
-    letter-spacing: 0.09em;
-    
-    color: #504E00;
- }
-
- .address-box {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 1292px;
-    height: 55.18px;
-    left: 77px;
-    top: 887px;
-    
-    font-family: 'Be Vietnam Pro';
-    padding: 10px;
-
-    color: black;
-    background: rgba(187, 182, 182, 0.14);
-    border: 1px solid #848383;
-    
- }
-
- .location-service{
-    position: absolute;
-    width: 423px;
-    height: 24.63px;
-    left: 81px;
-    top: 960px;
-
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.09em;
-
-    color: #BFBC4B;
- }
-
- .location-check input[type="radio"][value="clinic"] {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 75px;
-    top: 1029px;
-}
-
-.location-check label[for='clinic'] {
-    position: absolute;
-    width: 113px;
-    height: 29.56px;
-    left: 116px;
-    top: 1000px;
-    
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
-    letter-spacing: 0.09em;
-    
-    color: #504E00;
-    
-    display: inline-block;
-    vertical-align: middle; 
-    line-height: 3.5; 
- }
-
- .location-check input[type="radio"][value="home"] {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 346px;
-    top: 1029px;
-}
-
-.location-check label[for='home'] {
-    position: absolute;
-    width: 230px;
-    height: 29.56px;
-    left: 385px;
-    top: 1000px;
-    
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
-    letter-spacing: 0.09em;
-    
-    color: #504E00;
-    
-    display: inline-block;
-    vertical-align: middle; 
-    line-height: 3.5; 
- }
-
- .clinical-services{
-    position: absolute;
-    width: 487.46px;
-    height: 35.47px;
-    left: 75px;
-    top: 1069px;
-
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
-    letter-spacing: 0.135em;
-
-    color: #BFBC4B;
- }
-
- .services{
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 35px;
-    letter-spacing: 0.135em;
-
-    color: #694501;
- }
-
- .services input[type="checkbox"][id="service1"] {
-   position: absolute;
-   width: 16px;
-   height: 15px;
-   left: 75px;
-   top: 1147px;   
-}
-
-.services label[for='service1'] {
-   position: absolute;
-   width: 517px;
-   height: 35px;
-   left: 113.83px;
-   top: 1137px;
- }
-
- .services input[type="checkbox"][id="service2"] {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 75px;
-    top: 1228px;
- }
-
-.services label[for='service2'] {
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 113.83px;
-    top: 1226px;
- }
-
- .services input[type="checkbox"][id="service3"] {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 75px;
-    top: 1274px;
- }
-
-.services label[for='service3'] {
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 113.83px;
-    top: 1272px;
-    
- }
-
- .services input[type="checkbox"][id="service4"] {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 75px;
-    top: 1320px;
- }
-
-.services label[for='service4'] {
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 113.83px;
-    top: 1318px;
-    
- }
-
- .services input[type="checkbox"][id="service5"] {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 75px;
-    top: 1366px;
- }
-
-.services label[for='service5'] {
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 113.83px;
-    top: 1364px;
-    
+.booking-form {
+   background-color: #ffffff;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 100%;
  }
  
- .services input[type="checkbox"][id="service6"] {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 75px;
-    top: 1412px;
+ .booking-form .div {
+   background-color: #ffffff;
+   border: 1px none;
+   height: 1340px;
+   overflow: hidden;
+   position: relative;
+   width: 1440px;
  }
-
-.services label[for='service6'] {
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 113.83px;
-    top: 1410px;
- }
-
- .services input[type="checkbox"][id="service7"] {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 770px;
-    top: 1182px;
-}
-
-.services label[for='service7'] {
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 815px;
-    top: 1180px;
- }
-
- .services input[type="checkbox"][id="service8"] {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 770px;
-    top: 1228px;
- }
-
-.services label[for='service8'] {
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 815px;
-    top: 1226px;
- }
-
- .services input[type="checkbox"][id="service9"] {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 770px;
-    top: 1274px;
- }
-
- .services label[for='service9'] {
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 815px;
-    top: 1272px;
-
- }
-
- .services input[type="checkbox"][id="service10"] {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 770px;
-    top: 1320px;
- }
-
-.services label[for='service10'] {
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 815px;
-    top: 1318px;
-    
- }
-
- .services input[type="checkbox"][id="service11"] {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 770px;
-    top: 1366px;
- }
-
-.services label[for='service11'] {
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 815px;
-    top: 1364px;
-    
- }
-
- .services input[type="checkbox"][id="service12"] {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 770px;
-    top: 1412px;
- }
-
-.services label[for='service12'] {
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 815px;
-    top: 1410px;
-    
- }
-
- /*prices*/
-
- .service1-price{
+ 
+ 
+ .booking-form .clinical-services {
+   color: #d61720;
+   font-family: "Montserrat";
+   font-size: 40px;
+   font-weight: 700;
+   left: 146px;
+   letter-spacing: 5.4px;
+   line-height: normal;
    position: absolute;
+   top: 200px;
+   white-space: nowrap;
+   width: 504px;
+ }
+
+ .booking-form .service-name {
+   color: #000000;
+   font-family: "Be Vietnam Pro";
+   font-size: 24px;
+   font-weight: bold;
+   height: 567px;
+   width: 1141px;
+   position: absolute;
+   top: 290px;
+   left: 184px;
+
+   display: flex;
+   gap: 18.1px;
+   flex-direction: column;
+ }
+
+ .booking-form .service-price {
+   color: #000000;
+   font-family: "Be Vietnam Pro";
+   font-size: 24px;
+   font-weight: bold;
+   height: 567px;
+   left: 184px;
+   position: absolute;
+   top: 290px;
+   width: 1141px;
+ }
+ 
+ .booking-form .korean-snow-price {
+   left: 1023px;
+   letter-spacing: 3.24px;
+   line-height: normal;
+   position: absolute;
+   top: 0;
+   width: 70px;
+ }
+ 
+ .booking-form .elixir-whole-price {
+   left: 1023px;
+   letter-spacing: 3.24px;
+   line-height: normal;
+   position: absolute;
+   top: 242px;
+   width: 69px;
+ }
+ 
+ .booking-form .eyebag-price {
+   left: 1023px;
+   letter-spacing: 3.24px;
+   line-height: normal;
+   position: absolute;
+   top: 194px;
+   width: 69px;
+ }
+ 
+ .booking-form .meso2-price {
+   left: 1024px;
+   letter-spacing: 3.24px;
+   line-height: normal;
+   position: absolute;
+   top: 146px;
+   width: 69px;
+ }
+ 
+ .booking-form .meso1-price {
+   left: 1024px;
+   letter-spacing: 3.24px;
+   line-height: normal;
+   position: absolute;
+   top: 97px;
+   width: 69px;
+ }
+ 
+ .booking-form .mega-price {
+   left: 1025px;
+   letter-spacing: 3.24px;
+   line-height: normal;
+   position: absolute;
+   top: 49px;
    width: 67px;
-   height: 35px;
-   left: 659px;
-   top: 1137px;
-}
+ }
+ 
+ .booking-form .underarm-price{
+   left: 1024px;
+   letter-spacing: 3.24px;
+   line-height: normal;
+   position: absolute;
+   top: 289px;
+   width: 69px;
+ }
+ 
+ .booking-form .microneedling-price{
+   left: 1024px;
+   letter-spacing: 3.24px;
+   line-height: normal;
+   position: absolute;
+   top: 531px;
+   width: 69px;
+ }
+ 
+ .booking-form .korean-glass-price {
+   left: 1021px;
+   letter-spacing: 3.24px;
+   line-height: normal;
+   position: absolute;
+   top: 483px;
+   width: 71px;
+ }
+ 
+ .booking-form .elixir-facial-price {
+   left: 1024px;
+   letter-spacing: 3.24px;
+   line-height: normal;
+   position: absolute;
+   top: 435px;
+   width: 69px;
+ }
 
-.service2-price{
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 660px;
-    top: 1202px;
-}
+ .booking-form .body-contour-price {
+   left: 1023px;
+   letter-spacing: 3.24px;
+   line-height: normal;
+   position: absolute;
+   top: 386px;
+   width: 69px;
+ }
 
-.service3-price{
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 660px;
-    top: 1248px;
-}
+ .booking-form .stem-price {
+   left: 1025px;
+   letter-spacing: 3.24px;
+   line-height: normal;
+   position: absolute;
+   top: 337px;
+   width: 67px;
+ }
 
-.service4-price{
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 660px;
-    top: 1294px;
-}
 
-.service5-price{
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 660px;
-    top: 1340px;
-}
+ .checkboxes{
+   display: flex;
+   gap: 24.2px;
+   flex-direction: column;
+   transform: scale(1.3);
+   width: 20px;
+   height: 567px;
+   left: 150px;
+   position: absolute;
+   top: 382px;
+ }
 
-.service6-price{
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 660px;
-    top: 1386px;
-}
 
-.service7-price{
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 1310px;
-    top: 1156px;
-}
 
-.service8-price{
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 1310px;
-    top: 1202px;
-}
+ .booking-form .proceed-container {
 
-.service9-price{
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 1310px;
-    top: 1248px;
-}
+   left: 932px;
+   position: absolute;
+   top: 920px;
+ }
 
-.service10-price{
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 1310px;
-    top: 1294px;
-}
+ .booking-form .proceed-button {
+   display: inline-flex;
+   align-items: center; 
+   justify-content: center; 
+   padding: 15px 30px;
 
-.service11-price{
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 1310px;
-    top: 1340px;
-}
+   color: #ffffff;
+   font-family: "Montserrat";
+   font-size: 20px;
+   font-weight: bold;
+   letter-spacing: 1.8px;
+   line-height: normal;
+   white-space: nowrap;
+   text-decoration: none;
 
-.service12-price{
-    position: absolute;
-    width: 560px;
-    height: 35px;
-    left: 1310px;
-    top: 1386px;
+   width: 336px;
+   border-radius: 79px;
+   border: none;
+   background-color: #ffd447;
+   
+ }
+
+ .booking-form .proceed-button:hover {
+   background-color: #f6a311;
+ }
+
+ .booking-form .proceed-button:active {
+   background-color: #9b6200;
+ }
+
+ .contact-container{
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+  width:600px;
+  height:600px;
+  top: 1200px;
 }
 
 

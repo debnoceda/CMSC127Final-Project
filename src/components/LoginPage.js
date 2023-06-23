@@ -18,8 +18,10 @@ function LoginPage({ handleLoginStatus }) {
       if (response.data.message) {
         setLoginStatus(response.data.message);
       } else {
-        setLoginStatus(response.data[0].userName);
+        const userName = response.data[0].userName;
+        setLoginStatus(userName);
         handleLoginStatus(true);
+        sessionStorage.setItem("userName", userName); // store the userID in session storage
         navigate('/'); // Redirect to /homepage
       }
     });
@@ -61,7 +63,7 @@ function LoginPage({ handleLoginStatus }) {
         <button type="button" onClick={togglePasswordVisibility} className="password-toggle-button">
           {showPassword ? 'Hide' : 'Show'}
         </button>
-        <button onClick={login} type="submit" className="login-button">
+        <button onClick={login} type="button" className="login-button">
           LOG IN
         </button>
       </form>

@@ -7,7 +7,7 @@ function Navbar({ isLoggedIn }) {
     <header>
       <div className="logo-container">
         <Link to="/" className="homepage-logo">
-          <img src="/images/logo.svg" alt="Logo" width="222" height="222" />
+          <img src="../images/logo.svg" alt="Logo" width="222" height="222" />
         </Link>
       </div>
       <nav className="navbar">
@@ -24,19 +24,19 @@ function Navbar({ isLoggedIn }) {
             </Link>
           </div>
           {isLoggedIn ? (
-            <>
+            <div>
               <Link to="/account" className="myprofile-box"></Link>
               <Link to="/account" className="myprofile-container">
                 MY PROFILE
               </Link>
-            </>
+            </div>
           ) : (
-            <>
+            <div>
               <Link to="/login" className="login-box"></Link>
               <Link to="/login" className="login-container">
                 LOG IN
               </Link>
-            </>
+            </div>
           )}
         </div>
       </nav>

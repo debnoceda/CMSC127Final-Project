@@ -20,7 +20,7 @@
 }
 
 .text-in-landing{
-    background-image: url(../../public//images/text-in-landing.svg);
+    background-image: url(../../public/images/text-in-landing.svg);
     background-size: cover;
     position: absolute;
     width: 100%;
