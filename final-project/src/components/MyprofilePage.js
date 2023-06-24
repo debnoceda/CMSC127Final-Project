@@ -11,7 +11,7 @@ function MyprofilePage() {
     const userName = sessionStorage.getItem('userName');
 
     // Make a GET request to fetch user details based on userID
-    Axios.get(`/users/${userName}`)
+    Axios.get(`http://localhost:3001/users/${userName}`)
         .then(response => response.data)
         .then(user => {
             setFirstName(user.firstName);

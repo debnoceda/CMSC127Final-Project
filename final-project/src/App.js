@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar.js";
 import HomePage from "./components/HomePage.js";
@@ -17,17 +17,17 @@ function App() {
     setIsLoggedIn(status);
   };
 
-  //Check if the user is logged in on component mount
+  // Check if the user is logged in on component mount
   useEffect(() => {
-    Axios.get("http://localhost:3001/auth/user", {withCredentials: true})
-    .then((response) => {
-      if(response.data.success){
-        setIsLoggedIn(true);
-      }
-    })
-    .catch((error) => {
-      console.log(error);
-    });
+    Axios.get("http://localhost:3001/auth/user", { withCredentials: true })
+      .then((response) => {
+        if (response.data.success) {
+          setIsLoggedIn(true);
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   }, []);
 
   return (
@@ -35,13 +35,16 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/booking" element={<BookingPage />} />
+          <Route
+            path="/booking"
+            element={isLoggedIn ? <BookingPage /> : <Navigate to="/login" />}
+          />
           <Route
             path="/login"
             element={<LoginPage handleLoginStatus={handleLoginStatus} />}
           />
           <Route path="/sign-up" element={<SignupPage />} />
-          <Route path="/account" element={<MyprofilePage/>}/>
+          <Route path="/account" element={<MyprofilePage />} />
         </Routes>
         <Navbar isLoggedIn={isLoggedIn} />
       </Router>

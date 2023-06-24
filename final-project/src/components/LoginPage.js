@@ -30,6 +30,7 @@ function LoginPage({ handleLoginStatus }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(userName);
+    console.log(e);
   };
 
   const togglePasswordVisibility = () => {
@@ -44,7 +45,7 @@ function LoginPage({ handleLoginStatus }) {
       <form className="login-form" onSubmit={handleSubmit}>
         <input
           value={userName}
-          onChange={(e) => setUserName(e.target.value)}
+          onChange={(e) => {console.log(e); setUserName(e.target.value)}}
           type="text"
           placeholder="Username"
           id="userName"
