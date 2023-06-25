@@ -46,6 +46,7 @@
     font-size: 20px;
     font-family: Be Vietnam Pro;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .firstName-editor{
@@ -250,7 +251,7 @@
     overflow: scroll;
 }
 
-.helpCenter-container{
+.changePass-container{
     position: absolute;
     width: 185px;
     height: 44px;
@@ -263,23 +264,12 @@
     text-decoration: none;
 }
 
-.helpCenter-icon{
-    background-image: url(../../public/images/help-center.svg);
-    position:absolute;
-    width: 28.79px;
-    height: 27.857px;
-    left: 11vw;
-    top: 708.5px;
-    flex-shrink: 0;
-    text-decoration: none;
-}
-
-.helpCenter{
+.changePass{
     position: absolute;
     display: flex;
-    width: 135px;
+    width: 191px;
     height: 31px;
-    left: 13.5vw;
+    left: 10.3vw;
     top: 706.5px;
     flex-direction: column;
     justify-content: center;

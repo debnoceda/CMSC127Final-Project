@@ -1,27 +1,65 @@
-import React from "react";
+import React, { useState } from 'react';
 import {Link } from "react-router-dom";
 import "../styles/BookingPage.css";
 
 function BookingPage (){
 
-  return (
-    <div className="booking-form">
-      <div className="div">
+  const [selectedItems, setSelectedItems] = useState([]);
+  const [quantities, setQuantities] = useState({});
+
+  const handleItemChange = (event) => {
+    const { id, value, checked } = event.target;
+    if (checked) {
+      setSelectedItems((prevSelectedItems) => [...prevSelectedItems, { id, value }]);
+      setQuantities((prevQuantities) => ({ ...prevQuantities, [id]: 1 }));
+    } else {
+      setSelectedItems((prevSelectedItems) => prevSelectedItems.filter((item) => item.id !== id));
+      setQuantities((prevQuantities) => {
+        const updatedQuantities = { ...prevQuantities };
+        delete updatedQuantities[id];
+        return updatedQuantities;
+      });
+    }
+  };
+
+  const handleQuantityChange = (event, id) => {
+    const { value } = event.target;
+    setQuantities((prevQuantities) => {
+      const updatedQuantities = { ...prevQuantities };
+      updatedQuantities[id] = value;
+      if (value === '0') {
+        delete updatedQuantities[id];
+        setSelectedItems((prevSelectedItems) => prevSelectedItems.filter((item) => item.id !== id));
+        const checkbox = document.getElementById(id);
+        if (checkbox) {
+          checkbox.checked = false;
+        }
+      }
+      return updatedQuantities;
+    });
+  };
+
+  const hasTotalSummary = selectedItems.length > 0;
+
+
+    return (
+        <div className="booking-form">
+        <div className="div">
         <div className="box"></div>
         <h1 className="clinical-services">CLINICAL SERVICES</h1>
         <div className="checkboxes">
-            <input type="checkbox" id="korean-snow" name="checkbox" />
-            <input type="checkbox" id="underarm" name="checkbox"/>
-            <input type="checkbox" id="mega" name="checkbox"/>
-            <input type="checkbox" id="stem" name="checkbox"/>
-            <input type="checkbox" id="meso1" name="checkbox"/>
-            <input type="checkbox" id="body-contour" name="checkbox"/>
-            <input type="checkbox" id="meso2" name="checkbox"/>
-            <input type="checkbox" id="eelixir-facial" name="checkbox"/>
-            <input type="checkbox" id="eyebag" name="checkbox"/>
-            <input type="checkbox" id="korean-glass" name="checkbox"/>
-            <input type="checkbox" id="elixir-whole" name="checkbox"/>
-            <input type="checkbox" id="microneedling" name="checkbox"/>
+            <input type="checkbox" value="1000" id="KOREAN SNOW DRIP (GLUTATHIONE)"  onChange={handleItemChange} />
+            <input type="checkbox" value="1100" id="UNDERARM WHITENING"onChange={handleItemChange}/>
+            <input type="checkbox" value="1200" id="MEGA WHITENING CINDERELLA DRIP" onChange={handleItemChange}/>
+            <input type="checkbox" value="1300" id="STEM CELL DRIP"onChange={handleItemChange}/>
+            <input type="checkbox" value="1400" id="MESO LIPO (ARMS, LEGS, STOMACH)"onChange={handleItemChange}/>
+            <input type="checkbox" value="1500" id="4D BODY CONTOUR" onChange={handleItemChange}/>
+            <input type="checkbox" value="1600" id="MESO LIPO (FACE V-SHAPE)" onChange={handleItemChange}/>
+            <input type="checkbox" value="1700" id="ELIXIR FACIAL (BASIC, ACNE, 3D)" onChange={handleItemChange}/>
+            <input type="checkbox" value="1800" id="EYEBAG REMOVAL" onChange={handleItemChange}/>
+            <input type="checkbox" value="1900" id="KOREAN GLASS SKIN FACIAL" onChange={handleItemChange}/>
+            <input type="checkbox" value="2000" id="ELIXIR WHOLE BODY SCULPTING" onChange={handleItemChange}/>
+            <input type="checkbox" value="2100" id="MICRONEEDLING" onChange={handleItemChange}/>
         </div>
         <div className="service-name">
             <div className="korean-snow">KOREAN SNOW DRIP (GLUTATHIONE)</div>
@@ -51,9 +89,40 @@ function BookingPage (){
             <div className="body-contour-price">1800</div>
             <div className="stem-price">1700</div>
         </div>
-        <div className="proceed-container">
-        <Link to="/checkout" className="proceed-button">PROCEED TO CHECKOUT</Link>
+
+
+        {hasTotalSummary && (
+          <div className="overlap">
+          <div className="rectangle-2" />
+          <div className="total-summary">TOTAL SUMMARY</div>
+          <div className="rectangle"/>
+          <div className="summary-services">
+            <ul className="items">
+              {selectedItems.map((item, index) => (
+                <div key={index} className="flex-container">
+                  <input
+                    type="number"
+                    className="number-box"
+                    step="1"
+                    value={quantities[item.id] || ''}
+                    onChange={(event) => handleQuantityChange(event, item.id)}
+                  />
+                  <span className="item-name">{item.id}</span>
+                  <span className="item-price">{item.value}</span>
+                </div>
+              ))}
+            </ul>
+          </div>         
         </div>
+        )}
+
+        {hasTotalSummary && (
+          <div className="proceed-container">
+            <Link to="/checkout" className="proceed-button">
+              PROCEED TO CHECKOUT
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );

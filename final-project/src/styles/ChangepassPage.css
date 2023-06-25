@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&family=Poppins:wght@700&display=swap');
+
+.changePassword-container{
+    width: 100%;
+    height: 894px;
+}
+
+.change-password{
+    position: absolute;
+    display: flex;
+    width: 501px;
+    height: 38px;
+    left:10vw;
+    top:222px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: #D61720;
+    font-size: 45px;
+    font-family: Be Vietnam Pro;
+    font-weight: 700;
+}
+
+.password-rules{
+    position: absolute;
+    display: flex;
+    width: 991px;
+    height: 32px;
+    left: 10.5vw;
+    top: 278px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+}
+
+.currentPassword{
+    position: absolute;
+    display: flex;
+    width: 214px;
+    height: 32px;
+    left: 10.5vw;
+    top: 335px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+}
+
+.currentPassword-container{
+    position: absolute;
+    width: 711px;
+    height: 43px;
+    left: 10.5vw;
+    top: 367px;
+    flex-shrink: 0;
+
+    border-radius: 7px;
+    border: 1px solid #C4C4C4;
+    background: #FFFBFB;
+    color:black;
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    text-indent: 10px;
+}
+
+.newPassword{
+    position: absolute;
+    display: flex;
+    width: 182px;
+    height: 32px;
+    left: 10.5vw;
+    top: 416px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+}
+
+.newPassword-container{
+    position: absolute;
+    width: 711px;
+    height: 43px;
+    left: 10.5vw;
+    top:448px;
+    flex-shrink: 0;
+
+    border-radius: 7px;
+    border: 1px solid #C4C4C4;
+    background: #FFFBFB;
+    color:black;
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    text-indent: 10px;
+}
+
+.confirm-newPassword{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 32px;
+    left: 10.5vw;
+    top: 497px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+}
+
+.confirm-newPassword-container{
+    position: absolute;
+    width: 711px;
+    height: 43px;
+    left: 10.5vw;
+    top: 529px;
+    flex-shrink: 0;
+
+    border-radius: 7px;
+    border: 1px solid #C4C4C4;
+    background: #FFFBFB;
+    color:black;
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    text-indent: 10px;   
+}
+
+.changePassword-saveButton{
+    position: absolute;
+    width: 168px;
+    height: 37px;
+    left: 10.5vw;
+    top: 624px;
+    border-radius: 9px;
+    border: 1px solid #000;
+    background: #FFD447;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+.changePassword-cancelButton{
+    position: absolute;
+    width: 168px;
+    height: 37px;
+    left: 24vw;
+    top: 624px;
+    border-radius: 9px;
+    border: 1px solid #000;
+    background: #C4C4C4;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+.currentPassword-toggle {
+    position: absolute;
+    top: 377px;
+    right: 43vw;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000000;
+  }
+
+.newPassword-toggle {
+    position: absolute;
+    top: 458px;
+    right: 43vw;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000000;
+  }
+
+.confirm-newPassword-toggle {
+    position: absolute;
+    top: 538px;
+    right: 43vw;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000000;
+  }
+
+.currentPassword-toggle:hover {
+    color: #DF505D;
+}
+
+.newPassword-toggle:hover {
+    color: #DF505D;
+}
+.confirm-newPassword-toggle:hover {
+    color: #DF505D;
+}
+
+.changePassword-error{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    height: 32px;
+    left: 10.5vw;
+    top: 572px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #DF505D;
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+}
+
+.changePassword-success{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 32px;
+    left: 10.5vw;
+    top: 572px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #DF505D;
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+}

@@ -8,6 +8,9 @@
   import LoginPage from "./components/LoginPage.js";
   import SignupPage from "./components/SignupPage.js";
   import MyprofilePage from "./components/MyprofilePage";
+  import EditprofilePage from "./components/EditprofilePage";
+  import CheckoutPage from "./components/CheckoutPage";
+  import ChangepassPage from "./components/ChangepassPage";
   import Axios from 'axios';
 
   function App() {
@@ -52,10 +55,13 @@
             />
             <Route path="/contact-us" element={<ContactusPage />} />
             <Route
-              path="/login"
+              path="/login" 
               element={<LoginPage handleLoginStatus={handleLoginStatus} />}
             />
             <Route path="/sign-up" element={<SignupPage />} />
+            <Route path="/account/edit-profile" element={<EditprofilePage handleLogout={handleLogout}/>}/>
+            <Route path="/checkout" element={<CheckoutPage/>}/>
+            <Route path="/account/changePassword" element={<ChangepassPage/>}/>
             <Route 
               path="/account" 
               element={isLoggedIn ? <MyprofilePage handleLogout={handleLogout} /> : <Navigate to="/" />}

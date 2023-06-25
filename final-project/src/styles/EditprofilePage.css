@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&family=Poppins:wght@700&display=swap');
+
+.editprofile-container{
+    position: absolute;
+    width: 100%;
+    height: 134vh;
+}
+
+.profilePicture-container{
+    position: absolute;
+    width: 387px;
+    height: 387px;
+    left: 10vw;
+    top: 250px;
+    background: black;
+    border-radius: 387px;
+}
+
+.profile-details{
+    position: absolute;
+    display: flex;
+    width: 501px;
+    height: 38px;
+    left: 41vw;
+    top: 241px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: #D61720;
+    font-size: 45px;
+    font-family: Be Vietnam Pro;
+    font-weight: 700;
+}
+
+.firstNameEditor{
+    position: absolute;
+    width: 711px;
+    height: 43px;
+    left: 41vw;
+    top: 317px;
+    flex-shrink: 0;
+
+    border-radius: 7px;
+    border: 1px solid #C4C4C4;
+    background: #FFFBFB;
+    color: black;
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    text-indent: 19px;
+}
+
+.lastNameEditor{
+    position: absolute;
+    width: 711px;
+    height: 43px;
+    left: 41vw;
+    top: 379px;
+    flex-shrink: 0;
+
+    border-radius: 7px;
+    border: 1px solid #C4C4C4;
+    background: #FFFBFB;
+    color: black;
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    text-indent: 19px;
+}
+
+.emailAddressEditor{
+    position: absolute;
+    width: 711px;
+    height: 43px;
+    left: 41vw;
+    top: 441px;
+    flex-shrink: 0;
+
+    border-radius: 7px;
+    border: 1px solid #C4C4C4;
+    background: #FFFBFB;
+    color: black;
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    text-indent: 19px;
+}
+
+.phoneNumberEditor{
+    position: absolute;
+    width: 711px;
+    height: 43px;
+    left: 41vw;
+    top: 503px;
+    flex-shrink: 0;
+
+    border-radius: 7px;
+    border: 1px solid #C4C4C4;
+    background: #FFFBFB;
+    color: black;
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    text-indent: 19px;
+}
+
+.saveButton{
+    position: absolute;
+    width: 168px;
+    height: 37px;
+    left: 50.2vw;
+    top: 636px;
+
+    border-radius: 9px;
+    border: 1px solid #000;
+    background: #FFD447;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cancelButton{
+    position: absolute;
+    width: 168px;
+    height: 37px;
+    left: 63.2vw;
+    top: 636px;
+
+    border-radius: 9px;
+    border: 1px solid #000;
+    background: #C4C4C4;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.deleteButton{
+    position: absolute;
+    width: 168px;
+    height: 37px;
+    left: 76.2vw;
+    top: 636px;
+
+    border-radius: 9px;
+    border: 1px solid #000;
+    background: #C4C4C4;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.changeProfilePic{
+    position: absolute;
+    left: 12.5vw;
+    top: 655px;
+    width: 279px;
+    height: 44px;
+    flex-shrink: 0;
+
+    /* border-radius: 10px;
+    border: 1px solid #000;
+    background: rgba(196, 196, 196, 0.00); */
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-family: Be Vietnam Pro;
+    text-indent: 36px;
+}
+
+.upload-image{
+    position: absolute;
+    left:4vw;
+    top: 4vh;
+}

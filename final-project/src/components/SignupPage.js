@@ -23,6 +23,11 @@ function SignupPage() {
     }).then((response) => {
       if(response.data.success){
         setsignupStatus('Account created successfully!');
+        setUserNameReg('');
+        setPasswordReg('');
+        setFirstNameReg('');
+        setLastNameReg('');
+        setEmailReg('');
       }
       else{
         setError('Failed to create an account. Please try again.');

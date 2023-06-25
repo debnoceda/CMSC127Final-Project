@@ -18,6 +18,9 @@ function ContactusPage() {
         }).then((response) => {
             if(response.data.success){
                 setcontactUsStatus('Message sent');
+                setcontactUsName('');
+                setcontactUsEmail('');
+                setcontactUsMessage('');
             }
             else{
                seterrorMessage('Unable to send a message. Please try again');

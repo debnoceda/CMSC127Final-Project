@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Inria+Sans:ital,wght@0,700;1,700&family=Montserrat:ital,wght@0,700;1,700&display=swap');
+
+.checkout-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .checkout-container .div {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 1875px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .checkout-container .group {
+    height: 35px;
+    left: 155px;
+    position: absolute;
+    top: 427px;
+    width: 333px;
+  }
+
+  
+  .checkout-container .FIRST-NAME-required {
+    color: #694501;
+    font-family: "Be Vietnam Pro";
+    font-size: 24px;
+    font-weight: bold;
+    left: 0;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 331px;
+  }
+  
+  .checkout-container .text-wrapper {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .span {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .group-2 {
+    height: 35px;
+    left: 155px;
+    position: absolute;
+    top: 533px;
+    width: 230px;
+  }
+  
+  .checkout-container .EMAIL-required {
+    color: #694501;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .checkout-container .text-wrapper-2 {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .text-wrapper-3 {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .group-3 {
+    height: 35px;
+    left: 743px;
+    position: absolute;
+    top: 427px;
+    width: 413px;
+  }
+  
+  .checkout-container .LAST-NAME-required {
+    color: #694501;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 411px;
+  }
+  
+  .checkout-container .text-wrapper-4 {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .text-wrapper-5 {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .group-4 {
+    height: 35px;
+    left: 743px;
+    position: absolute;
+    top: 533px;
+    width: 413px;
+  }
+  
+  .checkout-container .CONFIRM-EMAIL {
+    color: #694501;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 411px;
+  }
+  
+  .checkout-container .text-wrapper-6 {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .text-wrapper-7 {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .group-5 {
+    height: 35px;
+    left: 153px;
+    position: absolute;
+    top: 640px;
+    width: 392px;
+  }
+  
+  .checkout-container .CONTACT-NUMBER {
+    color: #694501;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .checkout-container .text-wrapper-8 {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .text-wrapper-9 {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .ADDRESS-required {
+    color: #694501;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 157px;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 901px;
+  }
+  
+  .checkout-container .text-wrapper-10 {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .text-wrapper-11 {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .text-wrapper-12 {
+    color: #000000;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 157px;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 793px;
+  }
+  
+  .checkout-container .group-6 {
+    height: 35px;
+    left: 742px;
+    position: absolute;
+    top: 640px;
+    width: 203px;
+  }
+  
+  .checkout-container .AGE-required {
+    color: #694501;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .checkout-container .text-wrapper-13 {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .text-wrapper-14 {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .text-wrapper-15 {
+    color: #000000;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 385px;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 379px;
+  }
+  
+  .checkout-container .text-wrapper-16 {
+    color: #000000;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 192px;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 379px;
+  }
+  
+  .checkout-container .booking-form {
+    color: #d61720;
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold;
+    left: 25px;
+    letter-spacing: 4.32px;
+    line-height: normal;
+    position: absolute;
+    top: 199px;
+    width: 719px;
+  }
+  
+  .checkout-container .overlap-group {
+    height: 98px;
+    left: 151px;
+    position: absolute;
+    top: 281px;
+    width: 1054px;
+  }
+  
+  .checkout-container .personal-details {
+    color: #d61720;
+    font-family: "Inria Sans";
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+    left: 0;
+    letter-spacing: 4.86px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 1054px;
+  }
+  
+  .checkout-container .p {
+    color: #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 7px;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 57px;
+    width: 712px;
+  }
+  
+  .checkout-container .text-wrapper-18 {
+    color: #00000080;
+    font-family: "Be Vietnam Pro-Regular", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    height: 39px;
+    left: 151px;
+    letter-spacing: 1.32px;
+    line-height: normal;
+    position: absolute;
+    top: 743px;
+    width: 610px;
+  }
+  
+  .checkout-container .text-wrapper-19 {
+    color: #000000;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 743px;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 790px;
+  }
+
+  .dateText{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  
+  .timeText {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .yesText{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .noText{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  
+
+
+
+  .firstname{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .email{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .contact{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .lastname{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .confirmEmail{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .age{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .date{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .time{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .address{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 1085px;
+    height: 40px; 
+  }
+
+  .yes{
+    transform: scale(1.5);
+  }
+
+  .no{
+    transform: scale(1.5);
+  }
+
+  .checkout-container .proceed-container {
+
+    left: 1050px;
+    position: relative;
+    top: 1050px;
+  }
+ 
+  .checkout-container .proceed-button {
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 15px 30px;
+ 
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    line-height: normal;
+    white-space: nowrap;
+    text-decoration: none;
+ 
+    width: 150px;
+    border-radius: 79px;
+    border: none;
+    background-color: #ffd447;
+    
+  }
+ 
+  .checkout-container .proceed-button:hover {
+    background-color: #f6a311;
+  }
+ 
+  .checkout-container .proceed-button:active {
+    background-color: #9b6200;
+  }
+
+
+
+  .checkout-container .edit-container {
+
+    left: 1050px;
+    position: relative;
+    top: 1050px;
+  }
+ 
+  .checkout-container .edit-button {
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 15px 30px;
+ 
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    line-height: normal;
+    white-space: nowrap;
+    text-decoration: none;
+ 
+    width: 150px;
+    border-radius: 79px;
+    border: none;
+    background-color: #ffd447;
+    
+  }
+ 
+  .checkout-container .edit-button:hover {
+    background-color: #f6a311;
+  }
+ 
+  .checkout-container .edit-button:active {
+    background-color: #9b6200;
+  }
+
+
+  .required-fields-message{
+    top:150px;
+   }
+
+   .required-fields-message{
+    color: #d40000; 
+    font-family: "Be Vietnam Pro";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 1085px;
+    left: 160px;
+    text-align: center;
+    height: 30px;
+    background-color: #d9414180;
+    padding-top:5px;
+   }
+
+
+   .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+
+
+
+  
+  
+  
