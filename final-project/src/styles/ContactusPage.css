@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&family=Montserrat:wght@700&display=swap');
+
+.contactUs-container{
+    position:absolute;
+    left: 0px;
+    width: 100%;
+    height: 1215px;
+}
+
+.contactUs{
+    position: absolute;
+    display: flex;
+    width: 735px;
+    height: 65px;
+    left: 7vw;
+    top: 217px;
+    flex-direction: column;
+    flex-shrink: 0;
+    
+    color: #D61720;
+    font-size: 80px;
+    font-family: Montserrat;
+    font-weight: 700;
+    letter-spacing: 10.8px;
+}
+
+.get-in-touch{
+    position: absolute;
+    display: flex;
+    width: 346px;
+    height: 54px;
+    left: 7vw;
+    top: 365px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    font-size: 40px;
+    font-family: Be Vietnam Pro;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+}
+
+.contactUs-name{
+    position: absolute;
+    width: 323px;
+    height: 54px;
+    left: 45vw;
+    top: 365px;
+    flex-shrink: 0;
+
+    border-radius: 3px;
+    border: 1px solid #000;
+    text-indent: 24px;
+    color: black;
+    font-size: 25px;
+    font-family: Be Vietnam Pro;
+    letter-spacing: 1.5px;
+}
+
+.contactUs-email{
+    position: absolute;
+    width: 323px;
+    height: 54px;
+    left: 67.9vw;
+    top: 365px;
+    flex-shrink: 0;
+
+    border-radius: 3px;
+    border: 1px solid #000;
+    text-indent: 24px;
+    color: black;
+    font-size: 25px;
+    font-family: Be Vietnam Pro;
+    letter-spacing: 1.5px;
+}
+
+.contactUs-message{
+    position: absolute;
+    width: 674px;
+    height: 265px;
+    left: 45vw;
+    top: 449px;
+    flex-shrink: 0;
+
+    border-radius: 3px;
+    border: 1px solid #000;
+    text-indent: 24px;
+    color: black;
+    font-size: 25px;
+    font-family: Be Vietnam Pro;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+.send-button{
+    cursor: pointer;
+    position: absolute;
+    width: 176px;
+    height: 48px;
+    left: 45vw;
+    top: 774px;
+
+    background: #FFD447;
+    border: #FFD447;
+    border-radius: 79px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.latolato-email{
+    position:absolute;
+    width: 460px;
+    height: 32px;
+    left: 7vw;
+    top: 447px;
+    color: #000;
+    font-size: 25px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.latolato-phoneNum{
+    position:absolute;
+    width: 314px;
+    height: 32px;
+    left: 7vw;
+    top: 510px;
+    color: #000;
+    font-size: 25px;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.latolato-message{
+    position:absolute;
+    width: 443px;
+    height: 32px;
+    left: 7vw;
+    top: 582px;
+    color: #000;
+    font-size: 25px;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+.latolato-logo{
+    background-image: url(../../public/images/logo1.svg);
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    left: 40vw;
+    top: 893px;
+    flex-shrink: 0;
+}
+
+.contactUs-icons{
+    position: absolute;
+    background-image: url(../../public/images/3-icons.svg);
+    width: 199px;
+    height: 199px;
+    flex-shrink: 0;
+    left: 42vw;
+    top:1041px;
+}
+
+.contactUs-error{
+    position: absolute;
+    display: flex;
+    width: 500px;
+    height: 30px;
+    left: 46vw;
+    top: 724px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #F80000;
+    font-size: 25px;
+    font-family: Be Vietnam Pro;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+
+.contactUs-success{
+    position: absolute;
+    display: flex;
+    width: 329px;
+    height: 30px;
+    left: 46vw;
+    top: 724px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #F80000;
+    font-size: 25px;
+    font-family: Be Vietnam Pro;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}

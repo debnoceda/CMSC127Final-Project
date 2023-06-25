@@ -18,7 +18,7 @@ function HomePage() {
   }, [pathname]);
 
   return (
-    <div>
+    <div className="homepage-container">
       <div className="dashboard"></div>
       <div className="text-in-landing"></div>
       <div className="front-page-pic"></div>
@@ -47,7 +47,6 @@ function HomePage() {
         <Link to="/contact-us" className="fb-icon"></Link>
         <Link to="/contact-us" className="message-icon"></Link>
         <Link to="/contact-us" className="call-icon"></Link>
-        <div className="space"></div>
       </div>
     </div>
   );

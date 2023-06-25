@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@800&family=Montserrat:wght@500&display=swap');
 
+.homepage-container{
+    position:absolute;
+    width: 100%;
+    height: 3056px;
+}
+
 .dashboard{
     background-image: url(../../public/images/Cover\ Page\ 1.svg);
     background-size: cover;
@@ -65,7 +71,7 @@
     width: 1254px;
     height: 91px;
     left: 67px;
-    top: 940px;
+    top: 880px;
     
     font-family: 'Be Vietnam Pro';
     font-style: normal;
@@ -76,39 +82,13 @@
     
     color: #000000;
 }
-  
-.prev-btn {
-    background-image: url(../../public/images/prev.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    width: 62px;
-    height: 62px;
-    left: 36px;
-    top: 1133px;
-}
-  
-.next-btn {
-    background-image: url(../../public/images/next.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    width: 62px;
-    height: 62px;
-    left: 1395px;
-    top: 1133px;
-}
 
 .about-us{
     position: absolute;
     width: 500px;
     height: 91px;
     left: 796px;
-    top: 1668px;
+    top: 1546px;
     
     font-family: 'Be Vietnam Pro';
     font-style: normal;
@@ -125,7 +105,7 @@
     width: 552.11px;
     height: 288px;
     left: 801.89px;
-    top: 1780px;
+    top: 1658px;
     
     font-family: 'Be Vietnam Pro';
     font-style: normal;
@@ -143,7 +123,7 @@
     width: 660px;
     height: 415px;
     left: 95px;
-    top: 1642px;
+    top: 1520px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 20px;
     background-repeat: no-repeat;
@@ -154,7 +134,7 @@
     width: 100%;
     height: 628px;
     left: 0px;
-    top: 2180px;
+    top: 2058px;
     
     background: linear-gradient(90deg, rgba(224, 88, 102, 0.5) 0%, rgba(255, 1, 13, 0.5) 100%), rgba(175, 118, 1, 0.4);
 }
@@ -165,7 +145,7 @@
     width: 777px;
     height: 702px;
     left: -22px;
-    top: 2106px;
+    top: 1984px;
 }
 
 .tagline{
@@ -174,7 +154,7 @@
     width: 858.46px;
     height: 370.35px;
     left: 542.54px;
-    top: 2266px;  
+    top: 2144px;  
 }
 
 .book-now-bot-rectangle{
@@ -182,7 +162,7 @@
     width: 303px;
     height: 70px;
     left: 841px;
-    top: 2623px;    
+    top: 2501px;    
 
     background: #FFD447;
     border-radius: 79px;
@@ -194,7 +174,7 @@
     width: 250px;
     height: 23.74px;
     left: 876px;
-    top: 2638px;
+    top: 2516px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -213,7 +193,7 @@
     width: 248px;
     height: 248px;
     left: 639px;
-    top: 2857px;
+    top: 2735px;
 }
 
 .fb-icon{
@@ -222,7 +202,7 @@
     width: 40px;
     height: 40px;
     left: 679px;
-    top: 3065px;
+    top: 2943px;
 }
 
 .message-icon{
@@ -231,7 +211,7 @@
     width: 40px;
     height: 40px;
     left: 749px;
-    top: 3065px;
+    top: 2943px;
 }
 
 .call-icon{
@@ -240,16 +220,5 @@
     width: 40px;
     height: 40px;
     left: 819px;
-    top: 3065px;
-}
-
-.space{
-    position: absolute;
-    width: 307px;
-    height: 50px;
-    left: 0px;
-    top: 3115px;
-
-    background: white;
-    border-radius: 79px;
+    top: 2943px;
 }

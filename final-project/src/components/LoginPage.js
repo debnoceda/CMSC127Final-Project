@@ -15,10 +15,10 @@ function LoginPage({ handleLoginStatus }) {
       userName: userName,
       password: password,
     }).then((response) => {
+      console.log(response.data);
       if (response.data.message) {
         setLoginStatus(response.data.message);
       } else {
-        const userName = response.data[0].userName;
         setLoginStatus(userName);
         handleLoginStatus(true);
         sessionStorage.setItem("userName", userName); // store the userID in session storage
@@ -29,8 +29,7 @@ function LoginPage({ handleLoginStatus }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(userName);
-    console.log(e);
+    login();
   };
 
   const togglePasswordVisibility = () => {
