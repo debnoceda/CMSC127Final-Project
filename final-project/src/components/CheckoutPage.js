@@ -10,9 +10,7 @@ function CheckoutPage() {
   const [totalPrice, setTotalPrice] = useState(0); // New state variable
   const navigate= useNavigate(); // Access the history object for navigation
   const [showModal, setShowModal] = useState(false);
-  const [bookingID, setBookingID] = useState();
-  const [quantity, setQuantity] = useState();
-  const [serviceName, setServiceName] = useState();
+
 
   const closeModal = () => {
     setShowModal(false);
@@ -57,50 +55,35 @@ function CheckoutPage() {
           checkbox.checked = false;
         }
       }
-      setQuantity(updatedQuantities);
       return updatedQuantities;
     });
   };
 
-  const handleServiceSelection = (id) => {
+  const handleServiceSelection = async (id) => {
     try {
-      Axios.get('http://localhost:3001/bookings')
-      .then(response => {
-        const bookings = response.data;
-        if (bookings.length > 0) {
-          const lastBookingID = bookings[bookings.length - 1].bookingID;
-          setBookingID(lastBookingID);
-          console.log(lastBookingID);
-          // Use the lastBookingID here
-          // Do further processing or pass it to another function
-        }
-      })
-      .catch(error => {
-        // Handle any errors that occur during the request
-        console.error(error);
-      });
-
-      selectedItems.forEach((item) => {
-        const serviceName = item.id;
-        setServiceName(serviceName);
-        Axios.get(`http://localhost:3001/services/${serviceName}`)
-          .then((response) => {
-            const serviceID = response.data[0].serviceID;
-            console.log(serviceID);
-            return Axios.post('http://localhost:3001/bookingServices', {
+      // Fetch the max booking ID first
+      const response = await Axios.get('http://localhost:3001/bookings/number');
+      const bookings = response.data;
+      const bookingID = bookings.maxBookingID;
+  
+      // Use Promise.all to await all the service requests
+      await Promise.all(
+        selectedItems.map(async (item) => {
+          const serviceName = item.id;
+          const response = await Axios.get(`http://localhost:3001/services/${serviceName}`);
+            const serviceID = response.data;
+  
+            // Use the resolved bookingID and serviceID in the post request
+            await Axios.post('http://localhost:3001/bookingServices', {
               bookingID: bookingID,
               serviceID: serviceID,
-              quantity: quantity,
+              quantity: item.quantity, // Assuming the quantity is stored in 'item.quantity'
             });
-            // Use the serviceID here
-            // Do further processing or pass it to another function
-          })
-          .catch((error) => {
-            // Handle any errors that occur during the request
-            console.error(error);
-          });
-      });
-
+  
+            // Use the serviceID here or pass it to another function if needed
+            // Do further processing if necessary
+        })
+      );
     } catch (error) {
       console.error('Error retrieving service ID:', error);
     }
