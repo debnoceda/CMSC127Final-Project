@@ -141,6 +141,14 @@
     border-radius: 387px;
 }
 
+.circle-image {
+    width: 387px;
+    height: 387px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+
 .defaultProfilePicture{
     width: 100%;
     height: 100%;

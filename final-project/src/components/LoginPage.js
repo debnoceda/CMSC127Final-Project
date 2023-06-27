@@ -29,7 +29,6 @@ function LoginPage({ handleLoginStatus }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    login();
   };
 
   const togglePasswordVisibility = () => {

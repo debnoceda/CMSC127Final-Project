@@ -12,24 +12,25 @@ function MyprofilePage({ handleLogout }) {
     // Retrieve the userName from session storage
     const userName = sessionStorage.getItem('userName');
 
-    // Make a GET request to fetch user details based on userID
+    // Make a GET request to fetch user details based on userName
     Axios.get(`http://localhost:3001/users/${userName}`)
       .then(response => response.data)
       .then(user => {
         setFirstName(user.firstName);
         setLastName(user.lastName);
-        setProfilePicture(user.profilePicture)
+        setProfilePicture(user.profilePicture);
       })
       .catch(error => {
         console.error('Error', error);
       });
   }, []);
 
+
   return (
     <div className="myProfile-container">
       <div className="profilePicture-container">
-        {profilePicture ? (<img src={profilePicture} alt="Profile"/>)
-        : (<img src="../images/default-profile-picture.png" alt="DefaultProfilePicture" width="387" height="387"/>)}
+        {profilePicture ? (<img className ="circle-image" src={`http://localhost:3001/${profilePicture}`} alt="Profile" width="387" height="387"/>)
+        : (<img className ="circle-image" src="../images/user.png" alt="DefaultProfilePicture" width="387" height="387"/>)}
       </div>
       <h1 className="name">{firstName} {lastName}</h1>
       <Link to="/account/edit-profile"className='edit-profile-icon'></Link>

@@ -1,359 +1,548 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Montserrat:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Inria+Sans:ital,wght@0,700;1,700&family=Montserrat:ital,wght@0,700;1,700&display=swap');
 
-header .wrapper{
+.checkout-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .checkout-container .div {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 1150px;
     position: relative;
-}
+    width: 1440px;
+  }
+  
+  .checkout-container .group {
+    height: 35px;
+    left: 155px;
+    position: absolute;
+    top: 375px;
+    width: 333px;
+  }
 
-.box {
-   background-color: transparent;
-   justify-content: center;
-   height: 567px;
-   width: 1150px;
+  
+  .checkout-container .FIRST-NAME-required {
+    color: #694501;
+    font-family: "Be Vietnam Pro";
+    font-size: 24px;
+    font-weight: bold;
+    left: 0;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 331px;
+  }
+  
+  .checkout-container .text-wrapper {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .span {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .group-2 {
+    height: 35px;
+    left: 155px;
+    position: absolute;
+    top: 481px;
+    width: 230px;
+  }
+  
+  .checkout-container .EMAIL-required {
+    color: #694501;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .checkout-container .text-wrapper-2 {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .text-wrapper-3 {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .group-3 {
+    height: 35px;
+    left: 743px;
+    position: absolute;
+    top: 375px;
+    width: 413px;
+  }
+  
+  .checkout-container .LAST-NAME-required {
+    color: #694501;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 411px;
+  }
+  
+  .checkout-container .text-wrapper-4 {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .text-wrapper-5 {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .group-4 {
+    height: 35px;
+    left: 743px;
+    position: absolute;
+    top: 481px;
+    width: 413px;
+  }
+  
+  .checkout-container .CONFIRM-EMAIL {
+    color: #694501;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 411px;
+  }
+  
+  .checkout-container .text-wrapper-6 {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .text-wrapper-7 {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .group-5 {
+    height: 35px;
+    left: 153px;
+    position: absolute;
+    top: 588px;
+    width: 392px;
+  }
+  
+  .checkout-container .CONTACT-NUMBER {
+    color: #694501;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .checkout-container .text-wrapper-8 {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .text-wrapper-9 {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .ADDRESS-required {
+    color: #694501;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 157px;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 849px;
+  }
+  
+  .checkout-container .text-wrapper-10 {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .text-wrapper-11 {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .text-wrapper-12 {
+    color: #000000;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 157px;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 741px;
+  }
+  
+  .checkout-container .group-6 {
+    height: 35px;
+    left: 742px;
+    position: absolute;
+    top: 588px;
+    width: 203px;
+  }
+  
+  .checkout-container .AGE-required {
+    color: #694501;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .checkout-container .text-wrapper-13 {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .checkout-container .text-wrapper-14 {
+    color: #000000;
+    font-family: "Be Vietnam-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .checkout-container .booking-form {
+    color: #d61720;
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold;
+    left: 25px;
+    letter-spacing: 4.32px;
+    line-height: normal;
+    position: absolute;
+    top: 199px;
+    width: 719px;
+  }
+  
+  .checkout-container .overlap-group {
+    height: 98px;
+    left: 151px;
+    position: absolute;
+    top: 281px;
+    width: 1054px;
+  }
+  
+  .checkout-container .personal-details {
+    color: #d61720;
+    font-family: "Inria Sans";
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+    left: 0;
+    letter-spacing: 4.86px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 1054px;
+  }
+  
+  .checkout-container .text-wrapper-18 {
+    color: #00000080;
+    font-family: "Be Vietnam Pro-Regular", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    height: 39px;
+    left: 151px;
+    letter-spacing: 1.32px;
+    line-height: normal;
+    position: absolute;
+    top: 691px;
+    width: 610px;
+  }
+  
+  .checkout-container .text-wrapper-19 {
+    color: #000000;
+    font-family: "Be Vietnam-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 743px;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 738px;
+  }
 
-   border: 4px solid;
-   border-color: #ffd447;
-   border-radius: 25px;
-   height: 605px;
-   position: absolute;
+  .dateText{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
 
-   top: 270px;
-   left: 132px;
+  
+  .timeText {
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 23px;
+    font-weight: bold;
+  }
 
 
- }
+  .firstname{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
 
-.booking-form {
-   background-color: #ffffff;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   width: 100%;
- }
+  .email{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .contact{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .lastname{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .confirmEmail{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .age{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .date{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .time{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px; 
+  }
+
+  .address{
+    color: #000000;
+    font-family: "Be Vietnam Pro";
+    font-size: 19px;
+    padding-left: 10px;
+    width: 1085px;
+    height: 40px; 
+  }
+
+  .yes{
+    transform: scale(1.5);
+  }
+
+  .no{
+    transform: scale(1.5);
+  }
+
+  .checkout-container .proceed-container {
+
+    left: 1000px;
+    position: relative;
+    top: 955px;
+  }
  
- .booking-form .div {
-   background-color: #ffffff;
-   border: 1px none;
-   height: 1500px;
-   overflow: hidden;
-   position: relative;
-   width: 1440px;
- }
+  .checkout-container .proceed-button {
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 15px 30px;
  
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    line-height: normal;
+    white-space: nowrap;
+    text-decoration: none;
  
- .booking-form .clinical-services {
-   color: #d61720;
-   font-family: "Montserrat";
-   font-size: 40px;
-   font-weight: 700;
-   left: 146px;
-   letter-spacing: 5.4px;
-   line-height: normal;
-   position: absolute;
-   top: 200px;
-   white-space: nowrap;
-   width: 504px;
- }
-
- .booking-form .service-name {
-   color: #000000;
-   font-family: "Be Vietnam Pro";
-   font-size: 24px;
-   font-weight: bold;
-   height: 567px;
-   width: 1141px;
-   position: absolute;
-   top: 290px;
-   left: 184px;
-
-   display: flex;
-   gap: 18.1px;
-   flex-direction: column;
- }
-
- .booking-form .service-price {
-   color: #000000;
-   font-family: "Be Vietnam Pro";
-   font-size: 24px;
-   font-weight: bold;
-   height: 567px;
-   left: 184px;
-   position: absolute;
-   top: 290px;
-   width: 1141px;
- }
+    width: 200px;
+    border-radius: 79px;
+    border: none;
+    background-color: #ffd447;
+    
+  }
  
- .booking-form .korean-snow-price {
-   left: 1023px;
-   letter-spacing: 3.24px;
-   line-height: normal;
-   position: absolute;
-   top: 0;
-   width: 70px;
- }
+  .checkout-container .proceed-button:hover {
+    background-color: #f6a311;
+  }
  
- .booking-form .elixir-whole-price {
-   left: 1023px;
-   letter-spacing: 3.24px;
-   line-height: normal;
-   position: absolute;
-   top: 242px;
-   width: 69px;
- }
+  .checkout-container .proceed-button:active {
+    background-color: #9b6200;
+  }
+
+
+
+  .checkout-container .edit-container {
+
+    left: 1050px;
+    position: relative;
+    top: 998px;
+  }
  
- .booking-form .eyebag-price {
-   left: 1023px;
-   letter-spacing: 3.24px;
-   line-height: normal;
-   position: absolute;
-   top: 194px;
-   width: 69px;
- }
+  .checkout-container .edit-button {
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 15px 30px;
  
- .booking-form .meso2-price {
-   left: 1024px;
-   letter-spacing: 3.24px;
-   line-height: normal;
-   position: absolute;
-   top: 146px;
-   width: 69px;
- }
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    line-height: normal;
+    white-space: nowrap;
+    text-decoration: none;
  
- .booking-form .meso1-price {
-   left: 1024px;
-   letter-spacing: 3.24px;
-   line-height: normal;
-   position: absolute;
-   top: 97px;
-   width: 69px;
- }
+    width: 150px;
+    border-radius: 79px;
+    border: none;
+    background-color: #ffd447;
+    
+  }
  
- .booking-form .mega-price {
-   left: 1025px;
-   letter-spacing: 3.24px;
-   line-height: normal;
-   position: absolute;
-   top: 49px;
-   width: 67px;
- }
+  .checkout-container .edit-button:hover {
+    background-color: #f6a311;
+  }
  
- .booking-form .underarm-price{
-   left: 1024px;
-   letter-spacing: 3.24px;
-   line-height: normal;
-   position: absolute;
-   top: 289px;
-   width: 69px;
- }
- 
- .booking-form .microneedling-price{
-   left: 1024px;
-   letter-spacing: 3.24px;
-   line-height: normal;
-   position: absolute;
-   top: 531px;
-   width: 69px;
- }
- 
- .booking-form .korean-glass-price {
-   left: 1021px;
-   letter-spacing: 3.24px;
-   line-height: normal;
-   position: absolute;
-   top: 483px;
-   width: 71px;
- }
- 
- .booking-form .elixir-facial-price {
-   left: 1024px;
-   letter-spacing: 3.24px;
-   line-height: normal;
-   position: absolute;
-   top: 435px;
-   width: 69px;
- }
-
- .booking-form .body-contour-price {
-   left: 1023px;
-   letter-spacing: 3.24px;
-   line-height: normal;
-   position: absolute;
-   top: 386px;
-   width: 69px;
- }
-
- .booking-form .stem-price {
-   left: 1025px;
-   letter-spacing: 3.24px;
-   line-height: normal;
-   position: absolute;
-   top: 337px;
-   width: 67px;
- }
+  .checkout-container .edit-button:active {
+    background-color: #9b6200;
+  }
 
 
- .checkboxes{
-   display: flex;
-   gap: 24.2px;
-   flex-direction: column;
-   transform: scale(1.3);
-   width: 20px;
-   height: 567px;
-   left: 150px;
-   position: absolute;
-   top: 382px;
- }
+  .required-fields{
+    position: absolute;
+    top: 950px;
+    left: 160px;
+    height: 1875px;
+   }
+
+   .required-fields-message{
+    color: #d40000; 
+    font-family: "Be Vietnam Pro";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 400px;
+    height: 30px;
+   }
 
 
-
-
-
-
-
-ul.items p {
-  margin-bottom: 20px;
-}
-
-.flex-container {
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: space-between;
-  padding-right: 10px; /* Adjust the value as needed */
-  overflow: auto;
-}
-
-.summary-services {
-  color: #000000;
-  font-family: "Be Vietnam Pro";
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 2px;
-
-  overflow: auto; 
-  max-height: 300px; 
-  left: 50px;
-  position: absolute;
-  top: 80px;
-  width: 1140px;
-}
-
-
-.item-name {
-  text-align: left;
-}
-
-.item-price {
-  text-align: right;
-}
-
-.number-box {
-  width: 50px; /* Adjust the width to your desired size */
-  height: 25px; /* Adjust the height to your desired size */
-  text-align: center
-}
-
-.overlap {
-  height: 468px;
-  left: 100px;
-  position: absolute;
-  top: 940px;
-  width: 1276px;
-}
-
-.total-summary {
-  color: #d61720;
-  font-family: "Montserrat";
-  font-size: 36px;
-  font-style: italic;
-  font-weight: bold;
-  left: 26px;
-  letter-spacing: 4.86px;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-  width: 719px;
-}
-
-.rectangle {
-  background-color: #dea69f1a;
-  border-radius: 20px;
-  height: 338px;
-  left: 0;
-  position: absolute;
-  top: 52px;
-  width: 1218px;
-}
-
-.rectangle-2 {
-  border: 4px solid;
-  border-color: #ffd447;
-  border-radius: 25px;
-  height: 338px;
-  left: 0;
-  position: absolute;
-  top: 52px;
-  width: 1218px;
-}
-
-
-
-
-
-
-
-
-
- .booking-form .proceed-container {
-
-   left: 932px;
-   position: relative;
-   top: 1360px;
- }
-
- .booking-form .proceed-button {
-   display: inline-flex;
-   align-items: center; 
-   justify-content: center; 
-   padding: 15px 30px;
-
-   color: #ffffff;
-   font-family: "Montserrat";
-   font-size: 20px;
-   font-weight: bold;
-   letter-spacing: 1.8px;
-   line-height: normal;
-   white-space: nowrap;
-   text-decoration: none;
-
-   width: 336px;
-   border-radius: 79px;
-   border: none;
-   background-color: #ffd447;
-   
- }
-
- .booking-form .proceed-button:hover {
-   background-color: #f6a311;
- }
-
- .booking-form .proceed-button:active {
-   background-color: #9b6200;
- }
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
+   .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }

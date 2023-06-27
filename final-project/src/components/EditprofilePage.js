@@ -80,7 +80,7 @@ function EditProfilePage({handleLogout}) {
     formData.append('profilePicture', file);
 
     // Make a POST request to update the profile picture
-    Axios.post(`http://localhost:3001/users/${userName}/profile-picture`, formData)
+    Axios.put(`http://localhost:3001/users/${userName}/profile-picture`, formData)
       .then(response => {
         console.log(response.data);
         // Update the profile picture state
@@ -96,10 +96,17 @@ function EditProfilePage({handleLogout}) {
       <h1 className="profile-details">PROFILE DETAILS</h1>
       <div className="profilePicture-container">
         {profilePicture ? (
-          <img src={profilePicture} alt="Profile" />
+          <img 
+            className ="circle-image" 
+            src={`http://localhost:3001/${profilePicture}`} 
+            alt="Profile" 
+            width="387"
+            height="387" 
+          />
         ) : (
           <img
-            src="../images/default-profile-picture.png"
+            className ="circle-image"
+            src="../images/user.png"
             alt="DefaultProfilePicture"
             width="387"
             height="387"
@@ -134,6 +141,15 @@ function EditProfilePage({handleLogout}) {
         placeholder='Phone Number'
         onChange={e => setPhoneNumber(e.target.value)}
       />
+      <label className='changeProfilePic'>
+        Change Profile Picture
+        <input
+          className='upload-image'
+          type="file"
+          accept="image/*"
+          onChange={handleProfilePictureChange}
+        />
+      </label>
       <button className='cancelButton' onClick={handleCancel}>
         CANCEL
       </button>
@@ -143,16 +159,6 @@ function EditProfilePage({handleLogout}) {
       <button className='deleteButton' onClick={handleDelete}>
         DELETE
       </button>
-      <label className='changeProfilePic'>
-        Change Profile Picture
-        <input
-            className='upload-image'
-            type="file"
-            accept="image/*"
-            onChange={handleProfilePictureChange}
-        />
-      </label>
-      {/* <div className='changeProfilePic-icon'></div> */}
     </div>
   );
 }
